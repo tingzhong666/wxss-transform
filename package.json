@@ -1,0 +1,30 @@
+{
+  "name": "wxss-transform",
+  "version": "0.1.0",
+  "description": "一款用于开发小程序wxss的命令行工具。监听文件变化，并输出项目代码到指定目录，输出前会将stylus或css文件转换为wxss文件，其他文件不处理。并不会进行打包，只是单纯的处理样式文件。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wxss": "index.js"
+  },
+  "keywords": [
+    "wxss-transform",
+    "wxss",
+    "stylus",
+    "css",
+    "mini program",
+    "wx",
+    "transform",
+    "build"
+  ],
+  "author": "tingzhong",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.0.0",
+    "postcss-cli": "^6.1.2",
+    "postcss-mpvue-wxss": "^1.0.2",
+    "stylus": "^0.54.5"
+  }
+}
