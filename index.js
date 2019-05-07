@@ -13,8 +13,8 @@ if (process.argv[2] === '-h' || process.argv[2] === '--help') {
   Useg: wxss <entry> <output>
   
   默认: 
-    entry 为项目目录下的 src
-    ouput 为项目目录下的 dist
+    entry 为项目目录下的 ./src
+    ouput 为项目目录下的 ./dist
   `)
   return
 }
