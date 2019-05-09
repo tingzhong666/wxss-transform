@@ -1,6 +1,6 @@
 {
   "name": "wxss-transform",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "一款用于开发小程序wxss的命令行工具。wxss-transform 接收一个监听目录或文件，一个输出目录或文件。递归监听目录下所有文件变化，并输出项目代码到指定目录，输出前会将`stylus`或`css`文件转换为`wxss`文件，其他文件不处理。并不会进行打包，只是单纯的处理样式文件。",
   "main": "index.js",
   "scripts": {
